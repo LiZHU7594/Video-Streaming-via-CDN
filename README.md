@@ -24,7 +24,7 @@ We wrote the gray-shaded components in the figure above.
 ### Steps to run in Ubuntu:
 1. Start topo on mininet `sudo python topo.py`
 2. Open hosts on mininet `xterm h1 h2 h3 h4`
-3. Start server python start_server.py <host_number>`
+3. Start server python `start_server.py <host_number>`
 4. Start nameserver `./nameserver [--geo|--rr] <port> <servers> <log>`
 5. Start miProxy `./miProxy --dns <listen-port> <dns-ip> <dns-port> <alpha> <log>`
 6. Start firfox python `launch_firefox.py <profile_num>`
